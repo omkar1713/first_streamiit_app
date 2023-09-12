@@ -1,8 +1,8 @@
 import streamlit
 
-#import pandas
+import pandas
 
-#import requests
+import requests
 
 from urllib.error import URLError
 
