@@ -41,7 +41,7 @@ try:
       streamlit.dataframe(back_from_function)
     
 
-streamlit.stop()
+
 
 streamlit.header("The fruit load list contains:")
 #snowflake releated functions
@@ -56,7 +56,7 @@ if streamlit.buttton('Get Fruit load list'):
     my_data_row = get_fruit_load_list()
     streamlit.dataframe(mky_data_row)
 
-
+streamlit.stop()
 
 
 my_cur.execute("insert into fruit_load_list values('from streamlit')")
